@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swipebox/1.4.4/src/css/swipebox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/swipebox/1.4.4/src/js/jquery.swipebox.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+       body {  
+        min-height: 100vh;
+          background: url('grmsc.jpeg') no-repeat;
+            background-size: cover;
+              background-position: center;              
+            }
+        .text1{
+            text-align: center; 
+            color: #000000; 
+            text-shadow: 0 0 50x #444;                                     
+        }
+        .text2{           
+            margin-right: 20px;           
+            margin-left: 15%; 
+            color: #ffffff;   
+            text-shadow: #434343;          
+           }     
+           @media only screen and (max-width: 768px) {
+              .text1 {
+                 font-size: 1.2em;
+                  }
+                    .text2 {
+                          font-size: 1em; 
+                          }
+                        }      
+          .btn{ border-radius: 10px; 
+            padding: 10px 20px; 
+            border: none; 
+            background-color: #444; 
+            color: #ffffff; 
+            cursor: pointer;
+            margin-left: 10%;        
+            text-align: center; 
+            box-shadow: #444;                            
+          } 
+          .btn:hover {
+            background-color: #77ff00;
+            box-shadow: 0 0 90px #77ff00;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        .gallery img {
+          max-width: 400px;
+            max-height:400px; 
+              margin: 10px;
+                border-radius: 10px;
+                  object-fit: cover; 
+        }
+        @media only screen and (max-width: 768px) {
+  .gallery img {
+    max-width: 80vw; 
+    max-height: 60vh; 
+    width: 200px; 
+    height: 150px; 
+  }
+}
+        /* Add this CSS to make buttons side by side */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button-container button {
+            margin: 10px;
+        }
+    </style>    
+</head>
+<body>    
+  <body>
+    <h1 class="text1"> Sab manage hai</h1>
+    <div class="button-container">
+      <button class="btn meme-box"> <h2 class="text2">Memes</h2></button>
+      <form action="videos.html">
+          <button class="btn video-box" id="video-btn"> <h2 class="text2">Videos</h2></button>
+      </form>      
+    </div>       
+    <div class='gallery'>
+        <a href="#" data-lightbox="meme1"><img src="Hemant sir .png" alt='meme1'></a>
+        <a href="#" data-lightbox="meme2"><img src="Hemant sir k.png" alt='meme2'></a>
+        <a href="#" data-lightbox="meme3"><img src="500 hemant.png" alt='meme3'></a>
+        <a href="#" data-lightbox="meme4"><img src="Principle.png" alt='meme1'></a>
+        <a href="#" data-lightbox="meme5"><img src="mugdha.png" alt='meme2'></a>
+        <a href="#" data-lightbox="meme6"><img src="Bade chote.png" alt='meme3'></a>  
+         <a href="#" data-lightbox="meme7"><img src="Divkita.png" alt='meme1'></a>
+        <a href="#" data-lightbox="meme8"><img src="Divyansh.png" alt='meme2'></a>
+        <a href="#" data-lightbox="meme9"><img src="Shivam d.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme10"><img src="Yogi.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme11"><img src="Titanic2.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme12"><img src="Thand hupi.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme13"><img src="Shivam ice.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme14"><img src="Shivam singh.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme15"><img src="Scared Rhythima.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme16"><img src="Raaghav.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme17"><img src="Principle.png" alt='meme3'></a>          
+        <a href="#" data-lightbox="meme18"><img src="Pari hu paridhi.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme19"><img src="Mona manik.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme20"><img src="Maturity shobhu.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme21"><img src="10AM-2.png" alt='meme3'></a>    
+        <a href="#" data-lightbox="meme22"><img src="10AM.png" alt='meme3'></a>    
+      </div>      
+</body>
+</html>
