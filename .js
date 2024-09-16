@@ -2,7 +2,7 @@ const loginForm = document.querySelector('.Login');
 const usernameInput = document.querySelector('#username');
 const passwordInput = document.querySelector('#password');
 const loginButton = document.querySelector('.btn');
-const correctUsername = 'Maddymedia';
+const correctUsername = 'maddy';
 const correctPassword = 'Pa$$w0rd';
 loginButton.addEventListener('click', (e) => {
     e.preventDefault();
